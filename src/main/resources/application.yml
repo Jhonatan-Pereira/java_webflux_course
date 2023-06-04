@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://${DB_USER:admin}:${DB_PASS}@cluster0.1d5zmpf.mongodb.net/${DB_NAME}?retryWrites=true&w=majority
