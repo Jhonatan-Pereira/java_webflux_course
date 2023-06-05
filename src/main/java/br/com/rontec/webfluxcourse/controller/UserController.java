@@ -1,7 +1,10 @@
 package br.com.rontec.webfluxcourse.controller;
 
+import br.com.rontec.webfluxcourse.model.request.UserRequest;
+import br.com.rontec.webfluxcourse.model.response.UserResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 public interface UserController {
